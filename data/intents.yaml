@@ -1,0 +1,588 @@
+---
+intent:
+- tag: Greeting
+  patterns:
+  - hi there
+  - how are you
+  - is anyone there?
+  - hey
+  - hola
+  - hello
+  - good day
+  - good morning
+  - good evening
+  - hey there
+  
+- tag: Goodbye
+  patterns:
+  - bye
+  - see you later
+  - see you around
+  - goodbye
+  - good bye
+  - good night
+  - nice talking to you, bye
+  - till next time
+  
+- tag: Thanks
+  patterns:
+  - Thanks
+  - Thank you
+  - That's helpful
+  - Awesome, thanks
+  - Thanks for helping me
+  
+- tag: Joke
+  patterns:
+  - tell me a short joke
+  - Tell me something funny.
+  - Entertain me with a joke.
+  - Do you know any jokes?
+  - say a joke that's funny
+  - Share a joke with me!
+  - Could you tell me a joke.
+  - Give me some comic relief.
+  - Would you tell me a joke
+  - Make me laugh.
+  - Say something funny.
+  - I need a good joke.
+  - Please tell me a joke.
+  - Can you tell a joke?
+  
+- tag: Transport
+  patterns:
+  - how is the traffic right now
+  - could you please cancel my train ticket
+  - how far is walmart from here
+  - book me a taxi to cairo in half an hour
+  - schedule an uber in twenty minutes to tesco on fifth street
+  - hey i want to get trains to manchester on wednesday
+  - i need to go to berlin at five am on sunday by train
+  - how to get to cracow before noon by train
+  - book me a ticket for a train to new york from boston in two days from now
+  - book me a return trip from edinburgh to london by train
+  - whats the next train at westcombe park
+  - what are the train times to london bridge
+  - whens the next train to cornwall
+  - how do i get to old street
+  - whats the best way to france
+  - directions to sainsburys
+  - book a train tickets for me
+  
+- tag: Info_Request
+  patterns:
+  - what is the definition of [word]?
+  - ask Wikipedia about [topic]
+  - tell me some information about [topic]
+  - give me a brief about [topic]
+  - get me some information about [topic]
+  - what is the capital of [place_name]
+  - tell me the definition of computer
+  - what's the meaning of enthusiastic
+  - definition of ambulance
+  - which was longest buildings in the [place_name]
+  - how many oceans are there
+  - how many people live in los angeles
+  - what is computer
+  - what is the height of mount everest
+  - what is the biggest city
+  - how much is dollars in egyptian pounds
+  - what is the highest mountain in the us
+  - what's the square root of 90?
+  - who is barack obama
+  - what is the capital of china
+  - how tall is a giraffe
+  - how many oceans are there
+  - what is infinity
+  - how hot are summers in gibraltar
+  - what's the pomodoro technique
+  
+- tag: Weather
+  patterns:
+  - How is weather today
+  - hows the weather today in berlin?
+  - the weather today
+  - What is the weather in New York?
+  - Is it humid out there today?
+  - What's the weather forecast?
+  - What is the temperature today?
+  - Is it raining?
+  - tell me about the weather this week
+  - what will be the temperature today for miami
+  - is it warm outside
+  - is it sunny outside at this moment
+  - please tell me about today's weather
+  - what type of weather can you expect today
+  - what is the temperature
+  - what is this week's weather like
+  - what is the current weather condition in my place
+  - find me the current weather condition
+  - what is the weather outside
+  - check the weather of new york
+  - what will be this week weather condition
+  - can you tell me the weather for monday
+  - can you tell me what kind of weather now
+  - will there be a fall in temperature by tonight
+  - is it going to rain
+  - what is the weather in paris
+  - what is the weather condition in new york
+  - Will we build a snowman today?
+  - what is the whether today
+  - How is the weather?
+  - what's the weather like
+  - Can we expect any thunderstorms?
+  - what is the weather right now outside
+  - what's the weather today?
+  - What is the weather for tomorrow?
+  - What is the weather at your place?
+  - Do you have good weather?
+  - Is it hot or cold?
+  - How is the weather today?
+  - is it sunny
+  - will it be raining tomorrow
+  - what's the temperature
+  - what's the the weather in chicago
+  - show me this week's forecast
+  - what is the weather near me this week
+  - what is the weekly weather report
+  - what is the highest temperature for this week
+  - will there be snow this week
+  - what is the temperature right now
+  - whats the weather like right now in cairo
+  - what is the weather going to be this weekend
+  - what is the weather condition today
+  - how is the weather right now
+  - what's the weather going to be like
+  - whats the temperature outside
+  - how does it feel outside
+  - what is the current week weather
+  - read me the weather forcast for this week
+  - what is the weather like tomorrow
+  - what is the forecast in my area today
+  - please show me the local weather
+  
+- tag: Iot
+  patterns:
+  - make the lighting bit more warm here
+  - please set the lighting suitable for reading
+  - turn the lights off please
+  - turn the fan off please
+  - turn off the light in the bathroom
+  - dim the lights in the hall
+  - turn the lights off in the bedroom
+  - set lights to twenty percent
+  - dim the lights in the kitchen
+  - turn off the light in the living room
+  - dim the lights in the living room
+  - turn the lights off in the living room
+  - dim the lights in the bathroom
+  - turn on the lights in the reception
+  - please open curtain in the bedroom
+  - open the curtain here
+  - close the curtain here
+  - close the curtain
+  - make a room darker
+  - open the door
+  - please open the door
+  - dim the lights in the reception
+  - close the door
+  - please close the door
+  - set lights brightness higher
+  - make lights brightener
+  - open the door 
+  - please close the door of the bedroom
+  - please open the window here
+  - close the window
+  - open the curtain please
+  - please close the curtain in the bedroom
+  - close the curtain in the bedroom
+  - please close the window in the bedroom
+  - open the window 
+  - set brightness to fifty percent
+  - turn down the brightness
+  - reduce the brightness
+  - lower the lights
+  - decrease brightness
+  - dim the lights
+  - please make the lights reading friendly
+  - please make the lights watching friendly
+  - make the room brighter
+  - turn on fan in the bedroom
+  - turn on fan in the living room
+  - turn the fan on please
+  - turn on the fan please
+  - turn off the fan please
+  - please reduce the fan speed
+  - please increase the fan speed 
+  - reduce fan speed please
+  - lights off
+  - turn the lights blue
+  - let's have the lights blue
+  - make the lights shine blue
+  - good night lights off
+  - turn off the room light
+  - turn off the kitchen light
+  - turn off the light of room
+  - turn on the fan in the bedroom
+  - turn off the fan in the bedroom
+  - put the garage lights off
+  - turn on the room light
+  - turn on the kitchen light
+  - turn on the light
+  - dim the main lights please
+  - Would you please switch off the light?
+  - Can you please switch off the light?
+  - put the garage lights on
+  - Would you please switch on the light?
+  - Can you please switch on the light?
+  - set lights brightness higher in the bedroom
+  - set brightness to fifty percent
+  - set lights medium brightness in the bedroom
+  - set lights low brightness in the bedroom
+  - set lights high brightness in the bedroom
+  - set lights off brightness in the bedroom
+  - set lights medium brightness in the living room
+  - set light medium in the bedroom
+  - put lights high brightness in the bedroom
+  - put lights off brightness in the bedroom
+  - put lights medium brightness in the living room
+  - put light medium please in the bedroom
+  - turn lights on medium brightness in the bedroom
+  - turn lights on high brightness in the bedroom
+  - turn light on medium in the bedroom
+  - turn down the brightness in the bedroom
+  - reduce the brightness in the bedroom
+  - set light on high
+  - please open the curtain 
+  - close curtain please
+  - set the light on medium
+  - increase the light level to high
+  - please increase the light level to high
+  - please increase the light to medium
+  - please decrease the light level to medium
+  - please decrease the light level to low
+  - please put the light level on medium
+  - please put the light level on high
+  - please put the light level on low
+  - please put lights level on medium in the bedroom
+  - increase the light level to medium
+  - lower the lights in the bedroom
+  - turn down lights in the bedroom
+  - can you turn off the lights
+  - make the lights less bright
+  - lights off in the living room
+  - turn the kitchen lights off
+  - please turn up the lights in this room
+  - please turn up the lights in the living room
+  - please turn up the lights in the bedroom
+  - turn off the lights in the kitchenn
+  - can you turn off my bedroom lamp
+  - decrease brightness in the bedroom
+  - lower the brightness of the lights in the bedroom
+  - please increase the brightness in the bedroom
+  - dim the lights in the living room
+  - adjust the light in the bedroom
+  - increase the light level here
+  - turn the bathroom lights off
+  - turn my bedroom lights off
+  - turn my bathroom lights off
+  - lower lights in the bedroom please
+  - turn on the heating in the living room
+  - Turn off the heating in the living room
+  - please turn the heating on in the living room
+  - please turn the heating off in the living room
+  - set the heating in the living room
+  - Adjust the heating in the living room
+  - turn the living room lights off
+  - turn the living room heating off
+  - turn the living room heating on
+  - please turn the living room lights off
+  - please turn the living room lights on
+  - please turn the living room heating off
+  - please set the heating at Thirty three degrees Celsius
+  - put the heating at thirty three degrees celsius
+  - set the heating at 33 degrees celsius
+  - please raise the heating to thirty degrees celsius
+  - turn on the heating at thirty degrees celsius
+  - please turn on the heating at thirty degrees celsius
+  - please turn the heating on at thirty degrees celsius
+  - please down the heating to twenty degrees celsius
+
+- tag: News
+  patterns:
+  - what’s in the news?
+  - what's going on in the news
+  - what are today's top news stories
+  - what news do you have today
+  - what's on the news today
+  - what is the news this morning
+  - tell me current news for the day
+  - please tell me the latest news
+  - read the headlines from bbc
+  - can u tell me a latest news
+  - give me up to date on sports news
+  - tell me the latest news from bbc sports
+  - tell me about the latest sports news
+  - tell me about the latest news in the World
+  - tell me about the latest news in Middle east
+  - tell me about the latest news in Asia
+  - tell me about the latest news in Africa
+  - tell me about the latest news in Europe
+  - tell me about the latest news in USA
+  - tell me about the latest news in Australia
+  - can you give me the latest sports news
+  - tell me the latest news from bbc sports
+  - whats happening in sports today
+  - tell me the news in technology 
+  - tell me about the latest political news
+  - show me the latest news on bbc
+  - breaking news of business news
+  - breaking news of sports news
+  - pull up the headlines please
+  - please tell me the latest news about politics
+  - what is going on in politics
+  - what is the news this morning
+  - what's going on in the world right now
+  - i want the news about academy award
+  - tell me cnn news for me right now
+  - please tell me news related to the stock market
+  - what's the latest news on stock market
+  - can to play ccn news for me
+  - read me sports news
+  - tell me today's sports news headlines
+  - pull up political news today from cnn
+  - can u tell me a latest news
+  - what are the news lately
+  - show me the latest news about the elections
+  - tell me what was today's news
+  - read me the latest international news
+  - please tell me what the world news headlines
+  - what's going on in technology
+  - let me know about the news of technology
+  - tell me trending technology news
+  - read me the latest news in Africa
+  - read me about the latest news in Europe
+  - tell me the latest news in USA
+  - read me about the latest news in Australia
+  - what new is happening in business
+  - tell me the news in business 
+  - what's going on in business
+  - please let me know the latest business news
+  - let me know about the news of business
+  - tell me the news in science
+  - what's going on in science
+  - please let me know the latest science news
+  - give me the headline news
+  - what is latest news about this world
+  - read abut the latest new about this world
+  - what has happened recently in the world
+  - what has shown up in the news recently
+  - what's happening around the world
+  - what's going on in the World
+  - what's going on in Middle East
+  - what's going on in Asia
+  - what's going on in Africa
+  - what's going on in Europe
+  
+- tag: Cooking
+  patterns:
+  - can you suggest me a healthy foods for dinner
+  - your recipe of steak was superb
+  - is soft cheese better than hard
+  - cooking
+  - what to cook for lunch
+  - how long should i boil the eggs
+  - what ingredients do i need for tomato soup
+  - how to make cheescake
+  - tell me how to cook steak
+  - whats needed to make pizza
+  - what should i cook tonight
+  - what's the easiest way to cook pasta
+  - how do you make spaghetti
+  - what ingredients do i need to make 
+  - give me the recipe of steak
+  - how to make sausage
+  - show me pancakes
+  - how to make pancakes
+  - how to cook rice
+  - show the method to prepare icecream
+  - how to make homemade cheesecake
+  - how to make homemade ice cream
+  - how to cook cheese kransky sausages
+  - find me the recipe for beef stroganoff
+  - how to make a burger
+  - tell me the recipe for yellow rice
+  - i need recipe for yellow rice
+  - how to cook yellow rice
+  - how do i make cookies
+  - whats the recipe for oats cookie
+  - how do i make a pizza
+  - how do i make a pasta
+  - how do i make a falafel
+  - how do i make a [food_type]
+  - whats the recipe for pasta sause
+  - tell me how to make garlic bread
+  - whats the recipe for pizza
+  - whats the recipe for pasta
+  - whats the recipe for cake
+  - how do i cook rise
+  - how do i roll sushi
+  - tell me the recepie of [food_type]
+  - how much time do i have to boil an egg
+  - how much time to cook pasta
+  - how i cook indian rice
+  - how do i make tuna casserole
+  - how do i cook a medium rare steak
+  - find me a recipe of spaghetti
+  - what's the recipe for fried chicken
+  - how do i make a fried chicken
+  - how do you make vegetarian lasagna
+  - look for a pizza recipe
+  - how do i cook meatballs
+  - find a recipe for german chocolate cake
+  - how do i make mashed potatoes
+  - tell me the recipe for mashed potatoes
+  - give me a recipe for meatballs
+  - how do i cook a meatloaf
+  - show me how to cook lasagna
+  - what's the recipe for lasagna
+  - tell me how to cook spaghetti
+  - how do you cook a good burger
+  - how do you bbq chicken
+  - how to make fried rice
+  - get me a recipe for cookies
+  - find me a recipe for chicken noodle soup
+  - i would like the recipe for baked chicken
+  - find a recipe for chicken alfredo
+  - find me the recipe for a cake
+  - how do i cook chicken alfredo
+  - show me a spaghetti recipe
+  - can you pull up a recipe for spaghetti
+  - what is a recipe for turkey meatballs
+  - what integrent do i need to cook pasta
+  - how to cook crabmeat
+  
+- tag: Datetime
+  patterns:
+  - Can you give me the time?
+  - what's the time
+  - what time is it?
+  - Could you tell me the time, please?
+  - Could you tell me what time is it?
+  - Time, please!
+  - Do you know what time it is?
+  - Excuse me, what time is it?
+  - Give me the time.
+  - What time have we got?
+  - what is the time ?
+  - What time do we have?
+  - tell me the current time.
+  - Can you tell me the time?
+  - What time is it right now?
+  - What is the time?
+  - Do you have the time?
+  - What's the time?
+  - is it three am yet?
+  - is it six pm yet?
+  - I need to know what time it is.
+  - what is time is US ?
+  - Hi, I need the time.
+  - tell me the time in moscow
+  - tell me the date
+  - which day is it today
+  - what day of the week are we on
+  - i need to know the date it will be 4 days from now
+  - what is today’s date?
+  - how many days are left in this year
+  - what day is new year's eve this year
+  - what day is memorial day this year
+  - what day of the week is the twenty second march
+  - twenty ninth march comes on what day
+  - what day of the week is first april
+  - what is the current date
+  - is it monday today
+  - what's the time in tokyo now
+  - what is the date and time
+  - tell me the date and the time
+  - can you tell me what the date is today
+  
+- tag: Reminder
+  patterns:
+  - wake me up at five am this week
+  - wake me up at nine am on friday
+  - set an alarm for two hours from now
+  - cancel my seven am alarm
+  - remove the alarm set for 10 pm
+  - what alarms i have set
+  - please list active alarms
+  - tell me about my alarms
+  - set an alarm forty minutes from now
+  - set alarm for eight every weekday
+  - set alarm at ten am
+  - set alarm tomorrow at six am
+  - set wake up thursday seven am
+  - delete the alarm i just set
+  - remove the alarm
+  - show me the alarms i set
+  - set an alarm at six in the morning
+  - set an alarm for four in the afternoon
+  - alert me at three pm to go to the concert
+  - do i have an alarm set for morning flight
+  - did i set an alarm to wake up in the morning
+  - are there any alarms
+  - please tell me my alarms
+  - remove the first alarm
+  - disable the first alarm
+  - please, remind me to call john
+  - please remind me to call justin
+  - remind me to call john
+  - remind me to call lis
+  - remind me to call albert
+  - please remind me to go the meeting before it starts
+  - please tell me current events for the day
+  - remind me at one pm
+  - what are the upcoming reminders
+  - remind me of a doctor's appointment at two pm today
+  - cancel business meeting on Wednesday
+  - schedule a chat with adam on thursday afternoon
+  - clear my day from meetings
+  - do i have meeting with steve this week
+  - do i have meeting in this week
+  - please cancel all my events for today
+  - add an event to my calendar
+  - add a new event to my calendar
+  - do i have anything booked for tomorrow
+  - do i have any events today
+  
+- tag: PlayMusic
+  patterns:
+  - let's hear my workout playlist
+  - play some music
+  - i want to listen to music for Mohamed Mounir
+  - please play the new Lady Gaga song
+  - i need for you to play my Maroon5 playlist
+  - play playlist
+  - let's listen to lovely by Billie Eilish
+  - play the latest artist
+  - play sunday morning music
+  - who sings this song?
+  - put on some music Coldplay
+  - play some music david bowie
+  - play my jazz playlist
+  - play my favourite playlist
+  - play siri by Shahyn
+  - i like to listen to jazz
+  - play a song randomly from my playlist
+  - shuffle songs by Coldplay
+  - repeat this song
+  - i like this song plesse save
+  - i want to hear is jazz
+  - play my jazz playlist
+  - i want to hear is rap
+  - i like rock music
+  - play rock metal
+  - i like justin beibers music please play it
+  - suggest me some metal music
+  - repeat jazz
+  - play jazz
+  - repeat the last song again
