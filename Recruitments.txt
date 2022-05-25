@@ -20,3 +20,5 @@
     plac
     firebase-admin
     wolframalpha
+    fastapi
+    uvicorn
