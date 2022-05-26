@@ -4,21 +4,12 @@
     keras
     regex
     requests
-    wikipedia
     spacy
     PyYAML 
-    ibm-watson
-    SpeechRecognition
-    pygame
-    pipwin
-    PyAudio
     pyjokes
     beautifulsoup4
-    pywhatkit
     Flask
     lxml
     plac
-    firebase-admin
-    wolframalpha
     fastapi
     uvicorn
