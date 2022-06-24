@@ -12,9 +12,9 @@ from keras.models import load_model
 model = load_model('Model.h5')
 
 
-intents = yaml.safe_load(open("data\intents.yaml").read())
-words = pickle.load(open("data\words.pkl",'rb'))
-classes = pickle.load(open("data\classes.pkl",'rb'))
+intents = yaml.safe_load(open("data/intents.yaml").read())
+words = pickle.load(open("data/words.pkl",'rb'))
+classes = pickle.load(open("data/classes.pkl",'rb'))
 
 # Get Intents    
 def clean_up_sentence(sentence):
